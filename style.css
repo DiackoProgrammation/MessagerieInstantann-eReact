@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup{
+    margin: 50px;
+    width: 450px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+.error-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(240, 174, 169);
+    text-align: center;  
+    display: none;
+}
+
+.title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.name-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+input{
+    margin: 10px 0px ;
+    height: 25px;
+}
+.email{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.password{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.file-btn{
+    width: 130x;
+    margin-right: 10px;
+}
+.login-now{
+text-align: center;
+}
+.Continue{
+    width: 100%;
+    height: 60px;
+    font-size: 1.1em;
+    color: white;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.Continue:hover{
+    background-color: rgb(51, 54, 54);
+    transition: 0.5s;
+}
+input{
+    padding: 5px;
+}
+.login-container>*{
+    margin: 10px;
+}
+
+.login-now a{
+    text-decoration: underline;
+    color: black;
+    
+}

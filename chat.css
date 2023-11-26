@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-container{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    display: grid;
+    grid-template-rows:12% 76% 12% ;
+    border-radius: 10px;
+}
+header{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(119, 102, 105, 0.158);
+
+}
+header img{
+
+width: 50px;
+height: 50px;
+border-radius: 50px;
+object-fit: cover;
+margin: 0px 15px;
+}
+.fa-solid .fa-arrow-left{
+    background-color: transparent;
+    color: rgb(50, 134, 207);
+}
+main{
+    width: 100%;
+    border: 1px black solid;
+    border-radius: 3px;
+    overflow-y: auto;
+
+}
+.chat-area{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 246, 246);
+    padding: 5px;
+}
+.receive-msg{
+    margin: 3px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 15px;
+
+}
+.receive-msg p{
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2px;
+}
+.receive-msg img{
+    width: 30px;
+height: 30px;
+border-radius: 50px;
+object-fit: cover;
+margin: 0px 15px;
+}
+
+.send-msg{
+    margin: 3px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 5px;
+}
+.send-msg p{
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 2px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(119, 102, 105, 0.158);
+}
+footer .send-message{
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    
+}
+
+.send-message input{
+    width: 100%;
+    height: 50px;
+}
+.send-message button{
+    width: 100%;
+    height: 50px;
+}
+.fa-solid .fa-paper-plane{
+    width: 100%;
+    height: 100%;
+    color: black;
+}
